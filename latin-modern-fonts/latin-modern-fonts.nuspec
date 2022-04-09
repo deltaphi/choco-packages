@@ -29,7 +29,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <version>2.004.0</version>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
+    <owners>Damian Philipp</owners>
+    <releaseNotes>
+       2.004.0 - Initial Release of the Chocolatey package
+    </releaseNotes>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -44,16 +47,16 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/latin-modern-roman.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <licenseUrl>http://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-LICENSE.txt/at_download/file</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>http://www.gust.org.pl/projects/e-foundry/latin-modern/download/readme-latin-modern.txt</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>latin-modern-fonts font latin-modern lm</tags>
     <summary>Latin Modern font for Windows</summary>
     <dependencies>
-      <dependency id="chocolatey-font-helpers.extension" />
+      <dependency id="chocolatey-font-helpers.extension" version="[0.0.4, )" />
     </dependencies>
   </metadata>
   <files>
